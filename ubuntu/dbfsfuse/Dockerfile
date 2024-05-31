@@ -1,4 +1,4 @@
-FROM databricksruntime/python:experimental
+FROM databricksruntime/python-conda:latest
 
 RUN apt-get update \
   && apt-get install -y fuse \
